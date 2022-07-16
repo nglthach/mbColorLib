@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Classes, Controls, Graphics, Math, RGBHSLUtils,
-  Forms, HTMLColors, SelPropUtils, mbColorPickerControl, Scanlines;
+  Forms, HTMLColors, SelPropUtils, mbColorPickerControl, Scanlines, System.Types;
 
 type
   TSLColorPicker = class(TmbColorPickerControl)
